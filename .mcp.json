@@ -1,10 +1,10 @@
 {
   "mcpServers": {
-    "wordpress": {
+    "viralocitymedia-ca": {
       "command": "npx",
       "args": ["-y", "@automattic/mcp-wordpress-remote@latest"],
       "env": {
-        "WP_API_URL": "${WP_API_URL}",
+        "WP_API_URL": "https://viralocitymedia.ca/wp-json/mcp/mcp-adapter-default-server",
         "WP_API_USERNAME": "${WP_API_USERNAME}",
         "WP_API_PASSWORD": "${WP_API_PASSWORD}",
         "OAUTH_ENABLED": "false"

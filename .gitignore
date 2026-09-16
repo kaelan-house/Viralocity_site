@@ -1,0 +1,8 @@
+# Local, machine-specific Claude Code settings (may contain credentials)
+.claude/settings.local.json
+.mcp.local.json
+
+# Environment files — never commit credentials
+.env
+.env.*
+*.env
